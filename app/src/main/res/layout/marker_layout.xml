@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/line_graph_marker"
+    android:padding="7dp"
+    android:orientation="vertical"
+    android:gravity="start"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/marker_date"
+        android:text="15 Jun"
+        android:textSize="10sp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginBottom="7dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/marker_exchange_rate"
+        android:text="1 Eur -> 350 NGN"
+        android:textSize="10sp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginBottom="10dp"
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
